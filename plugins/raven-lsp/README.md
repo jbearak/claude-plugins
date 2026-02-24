@@ -1,6 +1,6 @@
 # raven-lsp
 
-R language server for Claude Code, providing code intelligence features like go-to-definition, completions, diagnostics, and hover documentation.
+R language server for Claude Code, providing diagnostics and go-to-definition.
 
 ## Supported Extensions
 `.R`, `.r`, `.Rmd`, `.rmd`, `.Rprofile`, `.Renviron`
