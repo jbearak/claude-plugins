@@ -1,0 +1,59 @@
+{
+  "name": "jbearak",
+  "description": "Language server plugins for Stata and R",
+  "owner": {
+    "name": "Jonathan Bearak"
+  },
+  "plugins": [
+    {
+      "name": "sight-lsp",
+      "description": "Stata language server for enhanced code intelligence",
+      "version": "1.0.0",
+      "author": {
+        "name": "Jonathan Bearak"
+      },
+      "source": "./plugins/sight-lsp",
+      "category": "development",
+      "strict": false,
+      "homepage": "https://github.com/jbearak/sight",
+      "lspServers": {
+        "stata": {
+          "command": "sight-language-server",
+          "args": ["--stdio"],
+          "extensionToLanguage": {
+            ".do": "stata",
+            ".ado": "stata",
+            ".doh": "stata",
+            ".mata": "stata"
+          }
+        }
+      }
+    },
+    {
+      "name": "raven-lsp",
+      "description": "R language server for enhanced code intelligence",
+      "version": "1.0.0",
+      "author": {
+        "name": "Jonathan Bearak"
+      },
+      "source": "./plugins/raven-lsp",
+      "category": "development",
+      "strict": false,
+      "homepage": "https://github.com/jbearak/raven",
+      "lspServers": {
+        "r": {
+          "command": "raven",
+          "args": ["--stdio"],
+          "extensionToLanguage": {
+            ".R": "r",
+            ".r": "r",
+            ".Rmd": "r",
+            ".rmd": "r",
+            ".Rprofile": "r",
+            ".Renviron": "r"
+          }
+        }
+      }
+    }
+  ]
+}
