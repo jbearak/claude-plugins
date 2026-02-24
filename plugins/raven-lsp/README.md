@@ -7,13 +7,18 @@ R language server for Claude Code, providing go-to-definition, find references, 
 
 ## Installation
 
-Install the Raven language server globally from GitHub:
+### Standalone binary (recommended)
+Download a prebuilt binary from the [releases page](https://github.com/jbearak/raven/releases) and place it on your PATH.
 
+### Via npm
 ```bash
 npm install -g github:jbearak/raven
 ```
 
-Or build from source (see the [Raven repository](https://github.com/jbearak/raven)).
+### Via bun
+```bash
+bun install -g github:jbearak/raven
+```
 
 ## More Information
 - [GitHub Repository](https://github.com/jbearak/raven)

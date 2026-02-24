@@ -7,13 +7,18 @@ Stata language server for Claude Code, providing go-to-definition, find referenc
 
 ## Installation
 
-Install the Sight language server globally from GitHub:
+### Standalone binary (recommended)
+Download a prebuilt binary from the [releases page](https://github.com/jbearak/sight/releases) and place it on your PATH.
 
+### Via npm
 ```bash
 npm install -g github:jbearak/sight
 ```
 
-Or build from source (see [Standalone Installation](https://github.com/jbearak/sight/blob/main/docs/standalone-installation.md)).
+### Via bun
+```bash
+bun install -g github:jbearak/sight
+```
 
 ## More Information
 - [GitHub Repository](https://github.com/jbearak/sight)
