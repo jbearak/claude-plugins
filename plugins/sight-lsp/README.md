@@ -1,6 +1,6 @@
 # sight-lsp
 
-Stata language server for Claude Code, providing diagnostics and go-to-definition.
+Stata language server for Claude Code, providing go-to-definition, find references, and error checking.
 
 ## Supported Extensions
 `.do`, `.ado`, `.doh`, `.mata`
