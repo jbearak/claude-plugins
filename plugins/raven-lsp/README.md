@@ -7,13 +7,13 @@ R language server for Claude Code, providing code intelligence features like go-
 
 ## Installation
 
-Install the Raven language server globally via npm:
+Install the Raven language server globally from GitHub:
 
 ```bash
-npm install -g raven-language-server
+npm install -g github:jbearak/raven
 ```
 
-Or download a standalone binary from the [releases page](https://github.com/jbearak/raven/releases).
+Or build from source (see the [Raven repository](https://github.com/jbearak/raven)).
 
 ## More Information
 - [GitHub Repository](https://github.com/jbearak/raven)

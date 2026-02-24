@@ -7,13 +7,13 @@ Stata language server for Claude Code, providing code intelligence features like
 
 ## Installation
 
-Install the Sight language server globally via npm:
+Install the Sight language server globally from GitHub:
 
 ```bash
-npm install -g sight-language-server
+npm install -g github:jbearak/sight
 ```
 
-Or download a standalone binary from the [releases page](https://github.com/jbearak/sight/releases).
+Or build from source (see [Standalone Installation](https://github.com/jbearak/sight/blob/main/docs/standalone-installation.md)).
 
 ## More Information
 - [GitHub Repository](https://github.com/jbearak/sight)
